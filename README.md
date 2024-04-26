@@ -4,7 +4,7 @@ Este repositório contém um conjunto de scripts Python para a criação e manip
 
 ## Reconstrução do Documento
 
-O script `reconstruir_documento` permite reconstruir um documento a partir de um índice invertido[^2^][2]. O índice é representado por uma lista de tuplas, onde cada tupla contém o índice do termo, o índice do documento e as posições do termo no documento.
+O script `reconstruir_documento` permite reconstruir um documento a partir de um índice invertido. O índice é representado por uma lista de tuplas, onde cada tupla contém o índice do termo, o índice do documento e as posições do termo no documento.
 
 ## Árvore de Sintaxe para Consultas
 
