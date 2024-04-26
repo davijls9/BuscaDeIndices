@@ -10,7 +10,7 @@ O script `reconstruir_documento` permite reconstruir um documento a partir de um
 
 O código inclui uma implementação para criar uma árvore de sintaxe para consultas lógicas. A árvore é construída utilizando nodos que representam termos e operadores lógicos (AND, OR).
 
-## Compressão Estática com Código de Huffman[^3^][3]
+## Compressão Estática com Código de Huffman
 
 A compressão de texto é realizada através do Código de Huffman. O script calcula as frequências dos caracteres, constrói a árvore de Huffman e codifica/decodifica o texto.
 
