@@ -4,13 +4,13 @@ Este repositório contém um conjunto de scripts Python para a criação e manip
 
 ## Reconstrução do Documento
 
-O script `reconstruir_documento` permite reconstruir um documento a partir de um índice invertido[^2^][2]. O índice é representado por uma lista de tuplas, onde cada tupla contém o índice do termo, o índice do documento e as posições do termo no documento.
+O script `reconstruir_documento` permite reconstruir um documento a partir de um índice invertido. O índice é representado por uma lista de tuplas, onde cada tupla contém o índice do termo, o índice do documento e as posições do termo no documento.
 
 ## Árvore de Sintaxe para Consultas
 
 O código inclui uma implementação para criar uma árvore de sintaxe para consultas lógicas. A árvore é construída utilizando nodos que representam termos e operadores lógicos (AND, OR).
 
-## Compressão Estática com Código de Huffman[^3^][3]
+## Compressão Estática com Código de Huffman
 
 A compressão de texto é realizada através do Código de Huffman. O script calcula as frequências dos caracteres, constrói a árvore de Huffman e codifica/decodifica o texto.
 
