@@ -1,0 +1,4 @@
+Tempo médio de pesquisa: 0.000601 segundos
+Tamanho do arquivo de índice: 1195457180 bytes
+Tamanho do arquivo de vocabulário: 252441564 bytes
+Tamanho total dos arquivos: 1447898744 bytes
