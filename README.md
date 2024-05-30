@@ -3,25 +3,32 @@
 Este projeto implementa um motor de busca básico utilizando arquivos JSON para armazenamento de índices e vocabulário. O projeto inclui funcionalidades de web crawling, limpeza de dados, análise léxica, stemming, indexação e busca. Além disso, há uma análise de hiperparâmetros para ajustar o desempenho da indexação e busca.
 
 ## Estrutura do Projeto
-Motor_de_busca-WebCrawler/
-├── sites_visitados/
-│ ├── doc1.txt
-│ ├── doc2.txt
-│ ├── doc3.txt
-│ └── ...
-└── project_directory/
-├── index_geral.json
+Motor_de_busca-WebCrawler/<br>
+├── sites_visitados/<br>
+│ ├── site1.txt<br>
+│ ├── site2.txt<br>
+│ ├── site3.txt<br>
+│ └── ...<br>
+└───────────────────────────── 
+BuscaDeIndices/<br>
+├── LICENSE<br>
+├── .gitignore
+├── README.md
+├── index_geral.json<br>
+├── vocab_geral.json<br>
+├── tuple_format.json<br>
+├── list_geral.json<br>
 ├── vocab_geral.json
-├── tuple_format.json
-├── list_geral.json
-├── hyperparameter_analysis.txt
-├── performance_metrics.txt
+├── hyperparameter_analysis.txt<br>
+├── hyperparametro_progress.txt
+├── performance_metrics.txt<br>
+├── template.html<br>
+├── Busca_de_indice_e_Consulta.ipynb
+├── analise_de_hiperparametro.ipynb<br>
+├── Carregando_arquivos.ipynb<br>
+├── Limpeza_e_transformacao.ipynb<br>
 ├── template.html
-├── LICENSE
-├── analise_de_hiperparametro.ipynb
-├── Carregando_arquivos.ipynb
-├── Limpeza_e_transformacao.ipynb
-└── relatorio.ipynb
+└── relatorio.py
 
 ## Funcionalidades
 
