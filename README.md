@@ -9,26 +9,26 @@ Motor_de_busca-WebCrawler/<br>
 │ ├── site2.txt<br>
 │ ├── site3.txt<br>
 │ └── ...<br>
-└───────────────────────────── 
+└───────────────────────────── <br>
 BuscaDeIndices/<br>
 ├── LICENSE<br>
-├── .gitignore
-├── README.md
+├── .gitignore<br>
+├── README.md<br>
 ├── index_geral.json<br>
 ├── vocab_geral.json<br>
 ├── tuple_format.json<br>
 ├── list_geral.json<br>
-├── vocab_geral.json
+├── vocab_geral.json<br>
 ├── hyperparameter_analysis.txt<br>
-├── hyperparametro_progress.txt
+├── hyperparametro_progress.txt<br>
 ├── performance_metrics.txt<br>
 ├── template.html<br>
-├── Busca_de_indice_e_Consulta.ipynb
+├── Busca_de_indice_e_Consulta.ipynb<br>
 ├── analise_de_hiperparametro.ipynb<br>
 ├── Carregando_arquivos.ipynb<br>
 ├── Limpeza_e_transformacao.ipynb<br>
-├── template.html
-└── relatorio.py
+├── template.html<br>
+└── relatorio.py<br>
 
 ## Funcionalidades
 
