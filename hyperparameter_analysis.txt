@@ -24,6 +24,7 @@ Total Size: 652089810 bytes
 Average Search Time: 0.002704 segundos
 
 =======
+<<<<<<< HEAD
 Chunk Size: 50
 Index Size: 410795732 bytes
 Vocab Size: 218980064 bytes
@@ -48,4 +49,30 @@ Vocab Size: 241294078 bytes
 Total Size: 652089810 bytes
 Average Search Time: 0.002704 segundos
 
+=======
+Chunk Size: 50
+Index Size: 410795732 bytes
+Vocab Size: 218980064 bytes
+Total Size: 629775796 bytes
+Average Search Time: 0.002401 segundos
+
+Chunk Size: 100
+Index Size: 410795732 bytes
+Vocab Size: 239164613 bytes
+Total Size: 649960345 bytes
+Average Search Time: 0.002400 segundos
+
+Chunk Size: 200
+Index Size: 410795732 bytes
+Vocab Size: 240923707 bytes
+Total Size: 651719439 bytes
+Average Search Time: 0.002205 segundos
+
+Chunk Size: 500
+Index Size: 410795732 bytes
+Vocab Size: 241294078 bytes
+Total Size: 652089810 bytes
+Average Search Time: 0.002704 segundos
+
+>>>>>>> 68224837a7daf42344a29e4a7021bd4b26e0e186
 >>>>>>> 415c814f72dd88383d69463701407f316ceac769

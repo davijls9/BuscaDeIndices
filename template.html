@@ -42,6 +42,7 @@
 </body>
 </html>
 =======
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -99,4 +100,63 @@
     </table>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório Detalhado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Relatório Detalhado da Aplicação</h1>
+    <h2>Tarefas Realizadas</h2>
+    <ul>
+        {% for task in tasks %}
+            <li>{{ task }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Análise de Hiperparâmetros</h2>
+    <table>
+        <tr>
+            <th>Chunk Size</th>
+            <th>Index Size (bytes)</th>
+            <th>Vocab Size (bytes)</th>
+            <th>Total Size (bytes)</th>
+            <th>Average Search Time (s)</th>
+        </tr>
+        {% for result in results %}
+        <tr>
+            <td>{{ result.chunk_size }}</td>
+            <td>{{ result.index_size }}</td>
+            <td>{{ result.vocab_size }}</td>
+            <td>{{ result.total_size }}</td>
+            <td>{{ result.avg_search_time }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+>>>>>>> 68224837a7daf42344a29e4a7021bd4b26e0e186
 >>>>>>> 415c814f72dd88383d69463701407f316ceac769
